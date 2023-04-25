@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Spirala 3 </title>
+    <link rel="stylesheet" type="text/css" href="prijava.css">
+    <script type="text/javascript" src="poziviAjax.js"> </script>
+</head>
+
+<body>
+    <div class="meni">
+        
+        <ul>
+        <li> <a id="logoutMeni" href="#"  style="display:none;" onClick="logoutMeniClick(event)"> Logout </a> </li>
+        <li> <a id ="predmeti" href="#"  onClick="predmeti(event)"> Predmeti </a> </li>
+        </ul>
+    </div>
+
+    <div class="main-container">
+        <div class="login-box">
+            <div class="login">
+                <div class="forma">
+                    <input name="username" type="text" id="loginUsername" class="box" required placeholder ="username"/>
+                </div>
+
+                <div class="forma">
+                    <input name="password" type="password" id="loginPassword" class="box" required placeholder="password"/>
+                </div>
+
+                <button id="login" onClick="loginClick()" class="btn">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

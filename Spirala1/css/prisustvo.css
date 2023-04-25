@@ -1,0 +1,60 @@
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  background-color: rgb(217, 219, 221);
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.content-tabela {
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-radius: 2px 2px 0 0;
+  overflow: hidden;
+}
+
+.responzivnost {
+  overflow-x: auto;
+}
+
+.content-tabela thead tr {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5em;
+}
+
+.content-tabela th,
+.content-tabela td {
+  padding: 20px 20px;
+  font-size: 1em;
+  border: 2px solid;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.content-tabela tbody tr {
+  border-bottom: 2.5px solid;
+  border-left: 2.5px;
+  border-right: 2.5px solid;
+  font-weight: bold;
+  color: rgb(39, 38, 38);
+  border-collapse: collapse;
+  height: 20%;
+}
+
+.zelena-boja {
+  background-color: rgb(126, 213, 126);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.crvena-boja {
+  background-color: rgb(190, 105, 105);
+}
+
+.zadnja-kolona {
+  width: 400px;
+}

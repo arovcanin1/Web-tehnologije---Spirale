@@ -1,0 +1,18 @@
+[
+{ 
+"nastavnik": {
+"username": "Amila", 
+"password_hash": "6a8233984ca86d129801c58e3b67cd5ec9b0abe0f8425b322df16c634d830db2399c70a3552dc6691065b57dfbec9755f93735328f9d5872f52f8f138b165e6f"
+}, 
+"predmeti": ["Web tehnologije", "Diskretna matematika"]
+},
+
+{ 
+"nastavnik": {
+"username": "korisnik", 
+"password_hash": "6a8233984ca86d129801c58e3b67cd5ec9b0abe0f8425b322df16c634d830db2399c70a3552dc6691065b57dfbec9755f93735328f9d5872f52f8f138b165e6f"
+}, 
+"predmeti": ["Web tehnologije"]
+}
+
+]
